@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
                                                         journalUser.setUsername(snapshots.getString("username"));
                                                         journalUser.setUserId(snapshots.getString("userId"));
 
-                                                        //startActivity(new Intent(MainActivity.this,AddJournalActivity.class));
                                                         startActivity(new Intent(MainActivity.this,JournalListActivity.class));
                                                         editTextEmail.getText().clear();
                                                         editTextPassword.getText().clear();
